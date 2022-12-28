@@ -115,3 +115,10 @@
   color: #333333;
   width: 10vw;
 }
+
+.footer{
+  margin: 4rem 0 1rem 0;
+  text-align: center;
+  font-size: 1rem;
+  color: #A9A9A9;
+}

@@ -3,6 +3,11 @@ import './components/Button'
 import './App.css';
 import Button from './components/Button';
 
+const footer = (
+  <footer className="footer">
+    created by Abiodun Busari - devChallenges.io
+  </footer>
+);
 
 function App() {
   return (
@@ -32,6 +37,7 @@ function App() {
     <Button color='six secondary blue' caption='Secondary button' text='Secondary'/>    
     <Button color='six danger blue' caption='Danger button' text='Danger'/>    
     </div>
+    {footer}
     </>
   );
 }
